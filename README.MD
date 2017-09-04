@@ -16,7 +16,7 @@ Npm :
 npm i foreach-then --save
 ```
 
-#### Example :
+#### Example 
 ```javascript
 var each = require('foreach-then')
 var array = [1,2,3];
