@@ -12,11 +12,11 @@ Yarn :
 yarn add foreach-then
 ```
 Npm :
-Yarn :
 ```
 npm i foreach-then --save
 ```
 
+#### Example :
 ```javascript
 var each = require('foreach-then')
 var array = [1,2,3];
