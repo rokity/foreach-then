@@ -1,7 +1,6 @@
 const each = require('./app');
 var array = [1,2,3];
-var str= "cane"
-each(str,(element,index,array)=>
+each(array,(element,index,array)=>
 {   
     console.log("element:"+element);
     console.log("index:"+index);
