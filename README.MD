@@ -5,6 +5,17 @@
 
 It's a shortcut , clean-code version of forEach in Javascript.
 
+### Installation
+
+Yarn :
+```
+yarn add foreach-then
+```
+Npm :
+Yarn :
+```
+npm i foreach-then --save
+```
 
 ```javascript
 var each = require('foreach-then')
