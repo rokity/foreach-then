@@ -1,11 +1,10 @@
 {
   "name": "foreach-then",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "shortcut to remove index check inside foreach for check if array is finished,without callback to invoke.",
   "main": "app.js",
-  "scripts":
-  {
-    "test":"node demo.js"
+  "scripts": {
+    "test": "node demo.js"
   },
   "repository": {
     "url": "https://github.com/rokity/foreach-then.git",
