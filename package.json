@@ -1,0 +1,16 @@
+{
+  "name": "foreach",
+  "version": "1.0.0",
+  "description": "shortcut to remove index check inside foreach for check if array is finished,without callback to invoke.",
+  "main": "app.js",
+  "scripts":
+  {
+    "test":"node demo.js"
+  },
+  "repository": {
+    "url": ".",
+    "type": "git"
+  },
+  "author": "Riccardo Amadio",
+  "license": "MIT"
+}
