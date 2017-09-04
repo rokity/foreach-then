@@ -5,6 +5,11 @@
 
 It's a shortcut , clean-code version of forEach in Javascript.
 
+## Why?
+
+I did it for `clean-code` , only for this.
+We don't need to check if the iterate-function finishes the array and so we need invoke the then-callback .
+
 ### Installation
 
 Yarn :
@@ -27,7 +32,7 @@ each(array,(element,index,array)=>
 },()=>{console.log('done')});
 ```
 
-Why?
+## Contribution
 
-I did it for `clean-code` , only for this.
-We don't need to check if the iterate-function finishes the array and so we need invoke the then-callback .
+If you make a `pull-request` I'll give you a `beer`. 
+
