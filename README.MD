@@ -8,7 +8,7 @@ It's a shortcut , clean-code version of forEach in Javascript.
 ## Why?
 
 I did it for `clean-code` , only for this.
-We don't need to check if the iterate-function finishes the array and so we need invoke the then-callback .
+We don't need to check if the iterate-function finishes and invoke the callback .
 
 ### Installation
 
