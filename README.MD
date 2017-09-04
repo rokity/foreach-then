@@ -1,4 +1,5 @@
 #FOREACH-THEN
+[![Build Status](https://travis-ci.org/rokity/foreach-then.svg?branch=master)](https://travis-ci.org/rokity/foreach-then)
 
 It's a shortcut , clean-code version of forEach in Javascript.
 
