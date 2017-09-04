@@ -8,7 +8,7 @@
     "test":"node demo.js"
   },
   "repository": {
-    "url": ".",
+    "url": "https://github.com/rokity/foreach-then.git",
     "type": "git"
   },
   "author": "Riccardo Amadio",
