@@ -4,7 +4,7 @@ module.exports = (array,iterateFunction,thenFunction)=>
             array.forEach(function(element,index,collection) {
                 iterateFunction(element,index,collection);
                 if(index==collection.length-1)
-                    thenFunction();
+                    thenFunction(array);
             });        
 }
 
