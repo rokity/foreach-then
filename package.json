@@ -1,6 +1,6 @@
 {
   "name": "foreach-then",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "shortcut to remove index check inside foreach for check if array is finished,without callback to invoke.",
   "main": "app.js",
   "scripts": {
