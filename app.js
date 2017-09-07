@@ -1,12 +1,33 @@
+"use strict";
+
 module.exports = (array,iterateFunction,thenFunction)=>
-{
-    if(checkArray(array) && checkIterateFunction(iterateFunction) && checkThenFunction(thenFunction))
-            array.forEach(function(element,index,collection) {
-                iterateFunction(element,index,collection);
-                if(index==collection.length-1)
-                    thenFunction(array);
-            });        
-}
+    {
+        if(checkArray(array) && checkIterateFunction(iterateFunction) && checkThenFunction(thenFunction))
+            {
+                var length = array.length;
+                var index = -1;
+                var async;
+                (function next()
+                {
+                    index++;                
+                    
+                    if(index == length)
+                        {
+                            thenFunction(array);
+                            return;
+                        }                       
+                    
+                        async = ()  => next();
+                        
+                        
+                        iterateFunction.call(this,array[index], index, array,async);
+
+                })();         
+
+            }
+
+
+    }               
 
 var checkIterateFunction = (iterateFunction)=>
 {

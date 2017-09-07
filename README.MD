@@ -3,7 +3,7 @@
 
 # FOREACH-THEN
 
-It's a shortcut , clean-code version of forEach in Javascript.
+It's a shortcut , clean-code version of forEach in Javascript with ASYNC .
 
 ## Why?
 
@@ -23,19 +23,19 @@ npm i foreach-then --save
 
 #### Example 
 ```javascript
-var each = require('foreach-then')
-var numbers = [1,2,3];
-each(numbers,
-(element,index,array)=>
+const each = require('foreach-then');
+var numeri = [1,2,3];
+
+each(numeri,(element,index,collection,cb)=>
 {   
-    console.log("element:"+element);
-    console.log("index:"+index);
-    console.log("array.length:"+array.length);
+    //iterate function    
+    console.log(collection[index]);
+    cb();  
 },
-(array) =>
-{
-    console.log('done');
-    console.log(array)
+(array)=>{
+    //then function
+    console.log("then")
+    console.log(array);
 });
 ```
 
